@@ -1773,6 +1773,41 @@ input, select, textarea {
 	section.special, article.special {
 		text-align: center;
 	}
+	.info {
+		padding: 20px; /* Padding around the content */
+		border-radius: 5px; /* Rounded corners */
+		margin: 10px; /* Margin for spacing */
+	  }
+	  
+	  .info h2 {
+		font-size: 20px; /* Adjust heading size */
+		margin-bottom: 5px; /* Space below heading */
+	  }
+	  
+	  .info p {
+		font-size: 16px; /* Adjust paragraph size */
+		line-height: 1.5; /* Line spacing for readability */
+		margin-bottom: 10px; /* Space between paragraphs */
+	  }
+	  
+	  .info .contact-info {
+		list-style: none; /* Remove default bullet points */
+		padding: 0; /* Reset padding for list */
+	  }
+	  
+	  .info .contact-info li {
+		margin-bottom: 5px; /* Space between list items */
+	  }
+	  
+	  .info .contact-info a {
+		color: #333; /* Text color for links */
+		text-decoration: none; /* Remove underline from links */
+	  }
+	  
+	  .info .contact-info a:hover {
+		color: #666; /* Change link color on hover */
+	  }
+	  
 
 	header p {
 		color: #b2b2b2;
